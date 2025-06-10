@@ -1,4 +1,4 @@
-# Lesson03: FlutterのWidget構造
+# Lesson2-1: FlutterのWidget構造
 
 ## Flutterのウィジェットの構造と仕組み
 
@@ -19,6 +19,12 @@ Flutterでは、すべてのUI要素がウィジェット（Widget）として�
 - `StatelessWidget`を継承したクラスには、UIを返すための`build(BuildContext context)`メソッドを定義する。
 - `build()`の戻り値には`MaterialApp`ウィジェットを返す。
 - `MaterialApp`の`home`引数に、アプリ内に表示する具体的なウィジェット（例：`Scaffold`）を設定する。
+
+## Scaffoldとは？
+
+- `Scaffold`は、Flutterアプリにおける基本的なレイアウト構造を提供するウィジェット。
+- アプリバー（`AppBar`）、ボディ（`body`）、ドロワー（`Drawer`）などの構成要素を含む。
+- ユーザーがよく目にする画面の土台部分に相当する。
 
 ---
 
