@@ -1,4 +1,4 @@
-# Lesson03: FlutterのWidget構造
+# Lesson02: FlutterのWidget構造
 
 ## Flutterのウィジェットの構造と仕組み
 
